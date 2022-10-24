@@ -25,7 +25,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <button id="kaygb-blog" class="btn btn-primary col-lg-4">BLOG</button>
-                        <a href="//wuko.top" id="kaygb-blog-a" target="_blank" class="btn btn-primary col-lg-4">BLOG</a>
+                        <a href="//blog.wuko.top" id="kaygb-blog-a" target="_blank" class="btn btn-primary col-lg-4">BLOG</a>
                         <a href="https://note.wuko.top" target="_blank" class="btn btn-success col-lg-4">NOTE</a>
                         <a href="https://github.com/wuko233" target="_blank" class="btn btn-secondary col-lg-4">GitHub</a>
                         <a href="mailto:admin@wuko.top" target="_blank" id="kaygb-mail-a" class="btn btn-success col-lg-4">Send a Mail</a>
@@ -39,7 +39,8 @@
                     <li><a href="https://twitter.com/Arair237"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
                 </ul>
                 <footer>
-                    <p>Copyright 2020 - Now <a href="https://wuko.top/" target="_blank">wuko233</a> <a href="https://icp.gov.moe/?keyword=20220237" target="_blank">萌ICP备20220237号-2</a>
+                    <p><a rel="me" href="https://hello.2heng.xin/@wuko233">Mastodon</a>
+                    <p>Copyright 2020 - Now <a href="https://wuko.top/" target="_blank">wuko233</a> <a href="https://icp.gov.moe/?keyword=20220237" target="_blank">萌ICP备20220237号</a>
                         <br>Mod by
                         <a href="https://github.com/kaygb" target="_blank" rel="">kaygb</a>
 
