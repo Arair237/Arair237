@@ -2,7 +2,7 @@ body {
     font-size: 18px;
     color: #6c767d;
     background-color: #ebf1f5;
-    background-image: url(https://s1.ax1x.com/2022/05/29/XQskh8.jpg);
+    background-image: url(/bg.webp);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,6 +68,7 @@ h4 {
     border: none;
     padding: 80px 80px 0px;
     border-radius: 0;
+    background-color: #f8f8f88a
 }
 
 .container {
@@ -145,7 +146,7 @@ strike {
 }
 
 .photo-bg {
-    background-image: url(/bg.jpg);
+    background-image: url(/bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,8 +228,4 @@ footer p {
     z-index: 999;
     top: 5%;
     left: 5%;
-}
-
-#aplayer {
-    z-index: 20000000;
 }

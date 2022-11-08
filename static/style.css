@@ -2,14 +2,12 @@ body {
     font-size: 18px;
     color: #6c767d;
     background-color: #ebf1f5;
-    background-image: url(/bg.webp);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     min-height: 800px;
 }
-
 
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
 
@@ -19,7 +17,6 @@ body {
     background-color: #F5F5F5;
 }
 
-
 /*定义滚动条轨道 内阴影+圆角*/
 
 ::-webkit-scrollbar-track {
@@ -27,7 +24,6 @@ body {
     border-radius: 10px;
     background-color: #F5F5F5;
 }
-
 
 /*定义滑块 内阴影+圆角*/
 
@@ -68,6 +64,7 @@ h4 {
     border: none;
     padding: 80px 80px 0px;
     border-radius: 0;
+    background-color: #f8f8f88a
 }
 
 .container {
@@ -145,7 +142,6 @@ strike {
 }
 
 .photo-bg {
-    background-image: url(/bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,6 +159,7 @@ footer p {
 @media (max-width: 1199px) {
     body {
         min-height: 600px;
+        background-image: url(/bg.webp);
     }
     h1 {
         font-size: 24px;
@@ -191,6 +188,7 @@ footer p {
 
 @media(max-width:991px) {
     .photo-bg {
+        background-image: url(/bg1.webp);
         background-position: top;
         min-height: calc(90vh - 440px);
     }
@@ -204,6 +202,7 @@ footer p {
     }
     .photo-bg {
         height: 180px;
+        background-image: url(/bg1.webp);
     }
     .card {
         padding: 20px;
@@ -227,8 +226,4 @@ footer p {
     z-index: 999;
     top: 5%;
     left: 5%;
-}
-
-#aplayer {
-    z-index: 20000000;
 }
